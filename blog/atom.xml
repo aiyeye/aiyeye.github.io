@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-test-site.com/blog</id>
+    <title>木头 Blog</title>
+    <updated>2022-12-08T12:26:54.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
+    <subtitle>木头 Blog</subtitle>
+    <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Typora]]></title>
+        <id>/Typora</id>
+        <link href="https://your-docusaurus-test-site.com/blog/Typora"/>
+        <updated>2022-12-08T12:26:54.000Z</updated>
+        <summary type="html"><![CDATA[[toc]]]></summary>
+        <content type="html"><![CDATA[<p>[toc]</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="段落与字体">段落与字体<a class="hash-link" href="#段落与字体" title="标题的直接链接">​</a></h3><p>​	换行		Shift+Enter	行与行之间的距离比段与段之间的距离小
+​	换段落		Enter
+​	分割线		<!-- -->*<!-- -->*<!-- -->*<!-- -->+Enter	or	-<!-- -->-<!-- -->-<!-- -->+<!-- -->Enter
+​	加粗		<!-- -->*<!-- -->*<!-- -->+文本+<!-- -->*<!-- -->*<!-- -->	or 	<!-- -->_<!-- -->_<!-- -->+文本+<!-- -->_<!-- -->_<!-- -->		Ctrl+B
+​	斜体		<!-- -->*<!-- -->+文本+<!-- -->*<!-- -->			Ctrl+I	【i】
+​	粗斜体		<!-- -->*<!-- -->*<!-- -->*<!-- -->+文本+<!-- -->*<!-- -->*<!-- -->*<!-- -->
+​	删除线		<!-- -->~<!-- -->~<!-- -->+文本+<!-- -->~<!-- -->~<!-- -->
+​	下划线		\&lt;u<!-- -->&gt;<!-- -->文本\&lt;/u<!-- -->&gt;<!-- -->			Ctrl+U</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="标题">标题<a class="hash-link" href="#标题" title="标题的直接链接">​</a></h3><p>​	一级到六级	#+文本+#	##+文本+##	###+文本+###  ···
+​	一级到六级	Ctrl+1-6	【不是数字键盘的1-6】</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="块元素">块元素<a class="hash-link" href="#块元素" title="标题的直接链接">​</a></h3><p>​	代码块		<!-- -->`<!-- -->`<!-- -->`<!-- -->+Enter	【英文输入法Esc下面的那个键】	Ctrl+Shift+K
+​	单行代码块	<!-- -->`<!-- -->`<!-- -->+代码+<!-- -->`<!-- -->`<!-- -->	<!-- -->`<!-- -->+代码+<!-- -->`<!-- -->
+​	公式块		$$+Enter	Ctrl+Shift+M
+​	引用块		&gt;+空格		Ctrl+Shift+Q</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="列表">列表<a class="hash-link" href="#列表" title="标题的直接链接">​</a></h3><p>有序列表		数字+.+空格</p><p>无序列表		*+空格	-+空格	++空格</p><p>​				创建嵌套无序列表【适用于有序列表】
+​				创建好无序列表后
+​				1. Enter代表同一层下一个
+​				2. Enter+Tab代表下一层下一个
+​				3. Enter+Enter代表上一层下一个
+​	任务列表		-+空格+<!-- -->[ ]<!-- -->+空格	【类似于单选框，x代表选中】</p><p>​	表格				| | |+Enter	Ctrl+T
+​	添加目录		<!-- -->[toc]<!-- -->+Enter
+​	上标			【公式块】	3^2 = 9
+​	下标				H_2SO_4		组合使用{（）}</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="图片与超链接">图片与超链接<a class="hash-link" href="#图片与超链接" title="标题的直接链接">​</a></h3><p>​	插入图片		1. 拖拽		2. Ctrl+Shift+I	【i】
+​	链接				1. 内联链接
+​								链接到给定网址的网页
+​								语法：<!-- -->[<!-- -->链接描述<!-- -->]<!-- -->(<!-- -->链接地址<!-- -->)<!-- -->	<!-- -->[<!-- -->百度<!-- -->]<!-- -->(<a href="http://www.baidu.com%5C)+Enter" target="_blank" rel="noopener noreferrer">http://www.baidu.com\)+Enter</a>
+​							2. 引用链接
+​								语法：<!-- -->[<!-- -->文本内容<!-- -->]<!-- -->[id]<!-- -->	可以在任意位置给<!-- -->[id]<!-- -->配上地址
+​								<!-- -->[<!-- -->百度<!-- -->]<!-- -->[hello][hello]<!-- -->: <a href="http://www.baidu.com" target="_blank" rel="noopener noreferrer">http://www.baidu.com</a>
+​							3. 直接使用地址
+​								语法：&lt;网址&gt;		\<a href="https://www.baidu.com%5C" target="_blank" rel="noopener noreferrer">https://www.baidu.com\</a></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="特殊符号">特殊符号<a class="hash-link" href="#特殊符号" title="标题的直接链接">​</a></h3><p>​	转义字符						<!-- -->\<!-- -->*	<!-- -->\<!-- -->+	<!-- -->\<!-- -->-
+​	公式内部的大括号		\begin{cases}	公式	\end{cases}</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="多光标操作">多光标操作<a class="hash-link" href="#多光标操作" title="标题的直接链接">​</a></h3><ul><li>按住Ctrl+鼠标点击</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="快速格式化代码">快速格式化代码<a class="hash-link" href="#快速格式化代码" title="标题的直接链接">​</a></h3><ul><li>选择代码块按 <code>Shift+Tap</code></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="锚点">锚点<a class="hash-link" href="#锚点" title="标题的直接链接">​</a></h3><ul><li><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[+锚点描述+]+(+标题代码+)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Ctrl + 单击   实现锚点跳转</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div></li><li><p><a href="#Typora">Typora</a></p></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="颜色">颜色<a class="hash-link" href="#颜色" title="标题的直接链接">​</a></h3><font face="黑体" color="red">点我查看如何操作</font><h3 class="anchor anchorWithStickyNavbar_LWe7" id="垂直复制选择">垂直复制选择<a class="hash-link" href="#垂直复制选择" title="标题的直接链接">​</a></h3><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">代码块垂直复制 Alt + Shift</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><h2 class="anchor anchorWithStickyNavbar_LWe7" id="业余学习">业余学习<a class="hash-link" href="#业余学习" title="标题的直接链接">​</a></h2>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://your-docusaurus-test-site.com/blog/welcome"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+        <author>
+            <name>Sébastien Lorber</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+        <category label="facebook" term="facebook"/>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MDX Blog Post]]></title>
+        <id>mdx-blog-post</id>
+        <link href="https://your-docusaurus-test-site.com/blog/mdx-blog-post"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
+        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_S0QG"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content>
+        <author>
+            <name>Sébastien Lorber</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Long Blog Post]]></title>
+        <id>long-blog-post</id>
+        <link href="https://your-docusaurus-test-site.com/blog/long-blog-post"/>
+        <updated>2019-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
+        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p><p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <author>
+            <name>Endilie Yacop Sucipto</name>
+            <uri>https://github.com/endiliey</uri>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>first-blog-post</id>
+        <link href="https://your-docusaurus-test-site.com/blog/first-blog-post"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <author>
+            <name>Gao Wei</name>
+            <uri>https://github.com/wgao19</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+</feed>
