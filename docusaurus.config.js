@@ -22,9 +22,12 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   // 组织
-  organizationName: '木头', // Usually your GitHub org/user name.
+  organizationName: 'aiyeye.github.io', // Usually your GitHub org/user name.
   // GitHub 仓库的名称
-  projectName: "mutou website", // Usually your repo name.
+  projectName: "my-website", // Usually your repo name.
+  // 部署分支名
+  deploymentBranch: "main",
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
