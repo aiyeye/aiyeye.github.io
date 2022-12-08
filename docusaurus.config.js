@@ -22,9 +22,9 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   // 组织
-  organizationName: 'aiyeye.github.io', // Usually your GitHub org/user name.
+  organizationName: 'aiyeye', // Usually your GitHub org/user name.
   // GitHub 仓库的名称
-  projectName: "my-website", // Usually your repo name.
+  projectName: "aiyeye.github.io", // Usually your repo name.
   // 部署分支名
   deploymentBranch: "main",
   trailingSlash: false,
